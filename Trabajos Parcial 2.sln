@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trabajo en pareja en clase"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicios de práctica en clase", "Ejercicios de práctica en clase\Ejercicios de práctica en clase.csproj", "{9297474E-B557-4DBA-B9A3-5B69266C161E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio combustible nave espacial", "Ejercicio combustible nave espacial\Ejercicio combustible nave espacial.csproj", "{E9A52D88-68B2-412E-9AAA-5088F044DA46}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{9297474E-B557-4DBA-B9A3-5B69266C161E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9297474E-B557-4DBA-B9A3-5B69266C161E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9297474E-B557-4DBA-B9A3-5B69266C161E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9A52D88-68B2-412E-9AAA-5088F044DA46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9A52D88-68B2-412E-9AAA-5088F044DA46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9A52D88-68B2-412E-9AAA-5088F044DA46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9A52D88-68B2-412E-9AAA-5088F044DA46}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
