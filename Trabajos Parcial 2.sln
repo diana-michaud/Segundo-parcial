@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio combustible nave 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Combustible ejercicio hecho por el profe", "Combustible ejercicio hecho por el profe\Combustible ejercicio hecho por el profe.csproj", "{B6B3DB1B-F20E-4E6A-BDD7-1744803DC0EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trabajo en clase", "Trabajo en clase\Trabajo en clase.csproj", "{7F93D92C-6B18-4828-A77F-9044AF098F40}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{B6B3DB1B-F20E-4E6A-BDD7-1744803DC0EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6B3DB1B-F20E-4E6A-BDD7-1744803DC0EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6B3DB1B-F20E-4E6A-BDD7-1744803DC0EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F93D92C-6B18-4828-A77F-9044AF098F40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F93D92C-6B18-4828-A77F-9044AF098F40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F93D92C-6B18-4828-A77F-9044AF098F40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F93D92C-6B18-4828-A77F-9044AF098F40}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
