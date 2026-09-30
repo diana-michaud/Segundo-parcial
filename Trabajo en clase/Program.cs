@@ -18,6 +18,7 @@
  * - En lugar de mostrar únicamente si el jugador llegó o no al espacio, ahora se indica si perdió por falta de combustible o por quedarse sin escudo.
  */
 
+
 // Constantes directas
 
 using System.Security.Cryptography;
