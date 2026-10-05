@@ -50,5 +50,4 @@ for (var i = 0; i < inventory.Length; ++i)
 }
 
 // inventory[5] = "Hacha";
-
-inventory[-1] = "Casco";
+// inventory[-1] = "Casco";
