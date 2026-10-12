@@ -18,6 +18,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tarea", "Tarea\Tarea.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diccionarios", "Diccionarios\Diccionarios.csproj", "{32CF2CF5-C605-43A2-B0B6-E1B02C32A900}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TAREA 2 PARCIAL 2", "TAREA 2 PARCIAL 2\TAREA 2 PARCIAL 2.csproj", "{35985972-2AD6-4321-A32C-9B4F9CDFA7AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,5 +62,9 @@ Global
 		{32CF2CF5-C605-43A2-B0B6-E1B02C32A900}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32CF2CF5-C605-43A2-B0B6-E1B02C32A900}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32CF2CF5-C605-43A2-B0B6-E1B02C32A900}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35985972-2AD6-4321-A32C-9B4F9CDFA7AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35985972-2AD6-4321-A32C-9B4F9CDFA7AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35985972-2AD6-4321-A32C-9B4F9CDFA7AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35985972-2AD6-4321-A32C-9B4F9CDFA7AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
