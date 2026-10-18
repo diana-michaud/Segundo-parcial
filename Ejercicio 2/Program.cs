@@ -49,7 +49,7 @@ string[] sprite =
 // Asignar un color diferente a cada símbolo.
 // Elegir el primer y el último color de la lista de opciones.
 
-
+Console.WriteLine("¡Este es tu personaje! A continuación podrás personalizar sus colores.");
 Console.WriteLine("       #####        ");
 Console.WriteLine("      ##+++##       ");
 Console.WriteLine("     #++@+@++#      ");
@@ -112,7 +112,7 @@ else if (opcion3 == "7") coloresElegidos["@"] = ConsoleColor.White;
 //----------------------
 
 
-Console.WriteLine("¡LISTO!");
+Console.WriteLine("¡LISTO! Aquí está tu personaje con colores personalizados:");
 
 foreach (string caracter in sprite)
 {
