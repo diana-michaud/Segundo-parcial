@@ -34,14 +34,19 @@ int teamSize = int.Parse(Console.ReadLine());
 Random.Shared.Shuffle(players);
 int team = 1;
 Console.WriteLine($"Equipo {team}:");
-// Error de sintaxis: Eliminé este símbolo ")" no era necesario, estaba de sobra.
+// 1er error de sintaxis: Eliminé este símbolo ")" no era necesario, estaba de sobra.
 
-for (int i = 0; i < players.Length - 1; i++)
+for (int i = 0; i < players.Length; i++)
+    // 1er error de lógica: Quité el -1 después de "players.Length" porque hacía que el ciclo se detuviera cuando no era momento.
 {
-    if (i > 0 && i % teamSize == 1)
+    if (i > 0 && i % teamSize == 0)
+// 2do error de lógica: Cambié el "== 1" por el "== 0". El "== 1" hacía que el programa empezara a ejecutar la parte del equipo 2 antes de tiempo. Al cambiarlo a "== 0", el programa espera a que el equipo se llene antes de empezar a ejecutar el siguiente.
     {
         team++;
         Console.WriteLine($"Equipo {team}:");
-        Console.WriteLine(players[i % teamSize]);
-    } }
-// Error de sintaxis: Agregué de nuevo este símbolo "}" al final para poder hacer correcto el código.
+    }
+    Console.WriteLine(players[i]);
+    // 3er error de lógica: Este error era el más grave, si dejaba este "Console.WriteLine(players[i]);" dentro del corchete, el programa se trababa y no avanzaba.
+
+}
+// 2do error de sintaxis: Agregué de nuevo este símbolo "}" al final para poder hacer correcto el código.
